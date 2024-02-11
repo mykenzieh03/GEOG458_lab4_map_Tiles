@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20210324</pubdate>
+                <title>Shellfish Beaches</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Public beaches that the DOH recommends for potential shellfish harvesting.</abstract>
+            <purpose>This dataset is used to display open, closed and advisory beaches. It also supports the Shellfish Biotoxin Program mapping site at https://fortress.wa.gov/doh/biotoxin/biotoxin.html.</purpose>
+            <supplinf>Not all public beaches are contained in this dataset. Only public recreational beaches that DOH monitors for shellfish harvesting are included. The Office of Shellfish and Water Protection monitors water quality and changes the status of these beaches on a regular basis.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20210324</begdate>
+                    <enddate>20210324</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>Weekly</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-124.557431</westbc>
+                <eastbc>-122.248879</eastbc>
+                <northbc>49.002089</northbc>
+                <southbc>46.267240</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>DOH</themekey>
+                <themekey>clams</themekey>
+                <themekey>shellfish</themekey>
+                <themekey>tidelands</themekey>
+                <themekey>beaches</themekey>
+                <themekey>oysters</themekey>
+                <themekey>harvesting</themekey>
+                <themekey>recreational</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>farming</themekey>
+                <themekey>health</themekey>
+                <themekey>inlandWaters</themekey>
+                <themekey>oceans</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Washington State</placekey>
+                <placekey>Washington</placekey>
+                <placekey>WA</placekey>
+                <placekey>Puget Sound</placekey>
+            </place>
+            <temporal>
+                <tempkt>None</tempkt>
+                <tempkey>2021</tempkey>
+            </temporal>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The Washington State Department of Health shall not be liable for any activity involving these data with regard to lost profits or savings or any other consequential damages; or the fitness for use of the data for a particular purpose; or the installation of the data, its use, or the results obtained.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington State Department of Health</cntorg>
+                    <cntper>Craig Erickson</cntper>
+                </cntorgp>
+                <cntpos>GIS Administrator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>PO Box 47904</address>
+                    <city>Olympia</city>
+                    <state>WA</state>
+                    <postal>98504-7904</postal>
+                    <country>UNITED STATES</country>
+                </cntaddr>
+                <cntvoice>(360) 236-4271</cntvoice>
+                <cntfax>(360) 236-4421</cntfax>
+                <cntemail>craig.erickson@doh.wa.gov</cntemail>
+                <hours>6:30am - 5:00pm</hours>
+                <cntinst>Monday - Thursday</cntinst>
+            </cntinfo>
+        </ptcontac>
+        <datacred>DOH</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+    </idinfo>
+    <dataqual>
+        <logic>None</logic>
+        <complete>None</complete>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20151026</pubdate>
+                        <title>Beaches</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20170710</begdate>
+                            <enddate>20170710</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Beaches</srccitea>
+                <srccontr>WDFW contributes changes and new beach locations for this dataset.</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>This layer was converted into ESRI coverage format and projected into the current coordinate system. Edits have been submitted from WDFW staff and DOH Food Safety and Shellfish staff.</procdesc>
+                <procdate>20151021</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>String</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Public Shellfish Beaches</enttypl>
+                <enttypd>Lines</enttypd>
+                <enttypds>ESRI</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LENGTH</attrlabl>
+                <attrdef>Original Length of the beach</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Measurement</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BIDN</attrlabl>
+                <attrdef>Beach Identification Number assigned by WDFW, unique to each beach.</attrdef>
+                <attrdefs>WDFW</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>6 digit number</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LINK</attrlabl>
+                <attrdef>Additional URL for displaying on the DOH biotoxin web page when the beach is selected.</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>URL</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Updated</attrlabl>
+                <attrdef>Date the beaches were updated using a Python script that overlays, biotoxin closures, polluted areas and queries internal DOH databases for other possible closures.</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Midx</attrlabl>
+                <attrdef>Longitude of the midpoint of the beach provided for boat only access.</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinate</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Midy</attrlabl>
+                <attrdef>Latitude of the midpoint of the beach provided for boat only access.</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinate</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BeachID</attrlabl>
+                <attrdef>Primary key linking to the DOH Shellfish PHD database.</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Number</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Cseason</attrlabl>
+                <attrdef>Clam season</attrdef>
+                <attrdefs>DFW</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Text</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Oseason</attrlabl>
+                <attrdef>Oyster season</attrdef>
+                <attrdefs>DFW</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Text</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Cstartdate</attrlabl>
+                <attrdef>Start date for clam season</attrdef>
+                <attrdefs>WDFW</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Cenddate</attrlabl>
+                <attrdef>End date for clam season</attrdef>
+                <attrdefs>WDFW</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Ostartdate</attrlabl>
+                <attrdef>Start date for oyster season</attrdef>
+                <attrdefs>WDFW</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BEACHCOMMENT</attrlabl>
+                <attrdef>Beach comment from the classification process</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Variable String</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CLASSIFICATIONDATE</attrlabl>
+                <attrdef>Date the beach was last classified</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Oenddate</attrlabl>
+                <attrdef>End date for oyster season</attrdef>
+                <attrdefs>WDFW</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>REASONDESCRIPTION</attrlabl>
+                <attrdef>Extra description</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Variable String</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ORGANIZATION</attrlabl>
+                <attrdef>Owner</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Variable String</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DFWOpen</attrlabl>
+                <attrdef>WDFW Season status for the beach</attrdef>
+                <attrdefs>WDFW</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>0</edomv>
+                                                						
+                        
+                        <edomvd>WDFW Season is closed</edomvd>
+                                                						
+                        
+                        <edomvds>WDFW</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>WDFW Season is open</edomvd>
+                                                						
+                        
+                        <edomvds>WDFW</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>WDFW Season is open for some species and closed for others</edomvd>
+                                                						
+                        
+                        <edomvds>WDFW</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BEACHNAME</attrlabl>
+                <attrdef>Common name of beach</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Variable String</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>WATERBODYNAME</attrlabl>
+                <attrdef>Water body the beach is in</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Variable String</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COUNTYNAME</attrlabl>
+                <attrdef>County the beach is in</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Variable String</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GROWINGAREANAME</attrlabl>
+                <attrdef>Commercial growing area the beach is in</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Variable String</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ALLSPECIEDESCRIPTIONS</attrlabl>
+                <attrdef>Combination of all specie closures from various geographies</attrdef>
+                <attrdefs>DOH</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Variable String</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CLASSIFICATION</attrlabl>
+                <attrdef>Semi-permanent beach classification based on water quality</attrdef>
+                <attrdefs>OSWP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Open</edomv>
+                                                						
+                        
+                        <edomvd>Classified as open and meets public health standards for recreational harvesting</edomvd>
+                                                						
+                        
+                        <edomvds>OSWP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Closed</edomv>
+                                                						
+                        
+                        <edomvd>Classified as closed, all or a portion of the beach is closed for recreational harvesting</edomvd>
+                                                						
+                        
+                        <edomvds>OWSP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Unclassified</edomv>
+                                                						
+                        
+                        <edomvd>Not enough is known about the beach to classify</edomvd>
+                                                						
+                        
+                        <edomvds>OSWP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FINALSTATUS</attrlabl>
+                <attrdef>Status combining seasons with permanent and temporary health closures.  Health closures always "trump" the WDFW seasons.</attrdef>
+                <attrdefs>OSWP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Open</edomv>
+                                                						
+                        
+                        <edomvd>Both the seasons and health status allow recreational harvesting</edomvd>
+                                                						
+                        
+                        <edomvds>OSWP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Closed</edomv>
+                                                						
+                        
+                        <edomvd>Harvesting is closed, either by seasons and/or health closures</edomvd>
+                                                						
+                        
+                        <edomvds>OWSP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Unclassified</edomv>
+                                                						
+                        
+                        <edomvd>Not enough is known about the beach, seasons are generally open or closed all year</edomvd>
+                                                						
+                        
+                        <edomvds>OSWP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>Conditionally Open</edomv>
+                                                						
+                        
+                        <edomvd>Beach has a mixed status.  It could be open for portions of the year or when nearby WWTP's are functioning.</edomvd>
+                                                						
+                        
+                        <edomvds>OSWP</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Length</attrlabl>
+                <attrdef>Length of feature in internal units.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington State Department of Health</cntorg>
+                    <cntper>Craig Erickson</cntper>
+                </cntorgp>
+                <cntpos>GIS Administrator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>PO Box 47904</address>
+                    <city>Olympia</city>
+                    <state>WA</state>
+                    <postal>98504-7904</postal>
+                    <country>UNITED STATES</country>
+                </cntaddr>
+                <cntvoice>(360) 236-4271</cntvoice>
+                <cntfax>(360) 236-4421</cntfax>
+                <cntemail>craig.erickson@doh.wa.gov</cntemail>
+                <hours>6:30am-5:00pm</hours>
+                <cntinst>Monday - Thursday</cntinst>
+            </cntinfo>
+        </distrib>
+        <resdesc>WinZip file contains an ESRI file geodatabase and metadata</resdesc>
+        <distliab>None</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>File Geodatabase</formname>
+                    <filedec>WinZip</filedec>
+                    <transize>.01</transize>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <accinstr>WinZip file contains an ESRI file geodatabase and metadata</accinstr>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20210324</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington State Department of Health</cntorg>
+                    <cntper>Craig Erickson</cntper>
+                </cntorgp>
+                <cntpos>GIS Administrator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>PO Box 47904</address>
+                    <city>Olympia</city>
+                    <state>WA</state>
+                    <postal>98504-7904</postal>
+                    <country>UNITED STATES</country>
+                </cntaddr>
+                <cntvoice>(360) 236-4271</cntvoice>
+                <cntfax>(360) 236-4421</cntfax>
+                <cntemail>craig.erickson@doh.wa.gov</cntemail>
+                <hours>6:30am - 5:00pm</hours>
+                <cntinst>Monday - Thursday</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
