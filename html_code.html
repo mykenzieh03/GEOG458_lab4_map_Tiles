@@ -33,6 +33,15 @@
             font-family: 'Open Sans', sans-serif;
         }
 
+        #title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
         /* each layer on the menu */
         #menu a {
             font-size: 13px;
@@ -65,21 +74,54 @@
         #menu a.active:hover {
             background: #3074a4;
         }
+
+        .mapboxgl-ctrl {
+            box-shadow: none;
+            border: none;
+            border-radius: 3px;
+            background-color: #fff;
+            cursor: pointer;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            text-decoration: none;
+            color: #404040;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .mapboxgl-ctrl:hover {
+            background-color: #f8f8f8;
+        }
+
+        .panel {
+            display: none;
+            position: absolute;
+            top: 50px;
+            left: 10px;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            z-index: 1;
+        }
     </style>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
 </head>
 
 <body>
+    <div id="title">Recreational Shellfish Beaches in Washington State</div>
     <nav id="menu"></nav>
     <div id='map'></div>
+
     <script type="text/javascript">
         mapboxgl.accessToken =
             'pk.eyJ1IjoibXlrZW56aWVoaXJhdGEiLCJhIjoiY2xqaGozdTQ2MDRmbzNzcjRyYWhscnZodiJ9.XYzH2mzs4ew_Kc16m-XvxQ';
         let map = new mapboxgl.Map({
             container: 'map', // container ID
             style: 'mapbox://styles/mapbox/dark-v10',
-            zoom: 12, // starting zoom
-            center: [-122.2559435, 47.6002614] // starting center
+            zoom: 6, // starting zoom
+            center: [-120.7401, 47.7511], // starting center
         });
 
         map.on('load', () => { //simplifying the function statement: arrow with brackets to define a function
@@ -221,7 +263,7 @@
             }
         });
 
-        map.addControl(new mapboxgl.NavigationControl());
+        map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
     </script>
 </body>
 
